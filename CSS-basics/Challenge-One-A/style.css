@@ -1,0 +1,23 @@
+body{
+    background-color:coral;
+}
+#wrap{
+    border: black 5px dashed;
+    height: auto;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: bisque;
+}
+h1{
+    border-bottom: black 5px dashed;
+    font-style: italic;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    text-align:center;
+}
+li::first-letter{
+    font-size: 2em;
+}

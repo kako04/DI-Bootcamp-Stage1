@@ -1,0 +1,12 @@
+#wrap{
+    background-color:aqua;
+    padding: 10px;
+
+}
+ul{
+    list-style: none;
+    text-align:center;
+}
+li::first-letter{
+    font-size: 2em;
+}
