@@ -1,17 +1,23 @@
+body{
+    background-color: purple;
+}
 #wrap{
-    display: flex;
-    background-color: aqua;
+    display: inline-flex;
 }
 #nav{
-    border: 1px solid pink;
     width: 20%;
+    
+    background-color: skyblue;
 }
 #content{
-    border: 1px solid pink;
     text-align: center;
     width: 80%;
+    background-color: rgb(104, 131, 255);
 }
 .copyright{
     place-items: center start;
     text-align: center;
+}
+#dots{
+    list-style: none;
 }
