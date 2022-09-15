@@ -1,16 +1,15 @@
 #wrap{
-    justify-content: space-between;
-    align-items: center;
     display: flex;
+    background-color: aqua;
 }
 #nav{
     border: 1px solid pink;
+    width: 20%;
 }
 #content{
     border: 1px solid pink;
     text-align: center;
-
-
+    width: 80%;
 }
 .copyright{
     place-items: center start;
