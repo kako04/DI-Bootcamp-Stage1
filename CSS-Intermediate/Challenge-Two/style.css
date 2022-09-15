@@ -1,5 +1,17 @@
 .col-4{
     width: 33%;
+    height: 100px;
+    background-color: beige;
+}
+.col-6{
+    width: 50%;
+    height: 100px;
+    background-color: aqua;
+}
+.col-12{
+    height: 100px;
+    background-color: blueviolet;
+    width: 100%;
 }
 @media screen and (min-width: 765px) and (max-width: 960px) {
     .col-4{
@@ -8,6 +20,12 @@
 }
 @media screen and (max-width: 765px) {
     .col-4{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .col-6{
         width: 100%;
     }
 }
